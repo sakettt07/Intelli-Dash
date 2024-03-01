@@ -43,7 +43,7 @@ const Navbar = () => {
     <motion.div
       animate={isExpanded ? "expanded" : "nonexpanded"}
       variants={variants}
-      className={` py-12 flex flex-col relative bg-slate-950 w-[22%] h-screen ${
+      className={` py-12 flex flex-col relative bg-slate-950 w-[22%] min-h-screen ${
         isExpanded ? "px-10" : "px-1"
       }`}
     >
